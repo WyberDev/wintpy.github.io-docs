@@ -1,9 +1,5 @@
-# WintPy Docs
-
-Bienvenido a la documentación de WintPy.
+# El tutorial de WintPy
+WintPy es un sistema operativo simulado hecho desde Python, es facil de aprender, si bien se puede usar facilmente con el comando --help, esta documentación es para dominar WintPy al 100% e incluso crear aplicaciones
 
 ## Estado
 En desarrollo 🚧
-
-## Qué es WintPy
-WintPy es un kernel simulado desarrollado desde Python, se puede usar completamente como un shell
