@@ -32,3 +32,5 @@ En WintPy, existen bastantes comandos, esta es la explicación de todos ellos:
 | `exec` | Tiene las siglas de "Execute", permite ejecutar una aplicación que hayas instalado, también se puede usar `exec` de la misma manera escribiendo `run`- |
 | `edit` | Permite editar un archivo que hayas creado o que ya este en el sistema, se puede hacer grande uso de esto si lo combinas con el comando `mkfle`. |
 | `devmode` | Activa una serie de comandos especiales altamente recomendados para los desarrolladores o gente que quiera crear una aplicación. |
+
+- [Página de inicio](README.md) 
