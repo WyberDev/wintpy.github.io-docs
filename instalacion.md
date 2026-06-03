@@ -10,5 +10,6 @@ El único requisito que pide es tener Python 3.x
 # Al ejecutarlo
 Al ejecutar WintPy te hará escribir un nombre para hacerte un usuario, puedes omitirlo escribiendo 'Q', o incluso omitirlo cada inicio con 'S'
 
-- [Siguiente página - Explicación de los comandos](comandos.md)
+
+- [Página posterior - Explicación de los comandos](comandos.md)
 - [Página de inicio](README.md) 
