@@ -18,7 +18,8 @@ En WintPy, existen bastantes comandos, esta es la explicación de todos ellos:
 | `rm` | Tiene las siglas de "Remove", es simple, te deja eliminar un archivo, no funciona con directorios. |
 | `cd` | Permite ir a un directorio y operar desde ese mismo directorio. Tiene una variante llamada `cd ..` que es para retrodecer un directorio atrás. |
 | `cp` | Tiene las siglas de "Copy", cp es para copiar un archivo, si bien puedes copiar un directorio, pero cuando quieras pegarlo, te va a tirar un error diciendo que el directorio que copiaste es un directorio, por lo que solo funciona con archivos. |
-| `pt` | Tiene las siglas de "Paste" Sirve para pegar un archivo que hayas copiado anteriormente con `cp`. |
+| `pt` | Tiene las siglas de "Paste" Sirve para pegar un archivo que hayas copiado anteriormente con `cp`, al pegar algo te preguntara con que nombre quieres pegarlo, puedes
+reutilizar el mismo nombre escribiendo 'same' |
 | `ls` | Este comando te permite mostrar que directorios y archivos hay en la rutas actual en la que estás, útil si quieres usar `cd` pero no recuerdas bien el nombre del directorio. |
 | `exit` | Creo que se explica bien con solo ver el nombre, lo que hace es salir de WintPy, te devuelve a tu shell de terminal. |
 | `clear` | Limpia todo el texto que está en la pantalla. |
