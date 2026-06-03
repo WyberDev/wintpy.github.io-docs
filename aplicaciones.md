@@ -27,4 +27,5 @@ y funciona!
 
 
 [Página anterior - Comandos](comandos.md)
+
 [Página de inicio](README.md)
