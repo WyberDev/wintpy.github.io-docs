@@ -33,4 +33,5 @@ En WintPy, existen bastantes comandos, esta es la explicación de todos ellos:
 | `edit` | Permite editar un archivo que hayas creado o que ya este en el sistema, se puede hacer grande uso de esto si lo combinas con el comando `mkfle`. |
 | `devmode` | Activa una serie de comandos especiales altamente recomendados para los desarrolladores o gente que quiera crear una aplicación. |
 
+- [Página anterior - Instalación de WintPy](instalacion.md)
 - [Página de inicio](README.md) 
