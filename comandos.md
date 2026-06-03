@@ -35,5 +35,7 @@ reutilizar el mismo nombre escribiendo 'same'|
 | `devmode` | Activa una serie de comandos especiales altamente recomendados para los desarrolladores o gente que quiera crear una aplicación. |
 
 - [Página posterior - Crear aplicaciones](aplicaciones.md)
+
 - [Página anterior - Instalación de WintPy](instalacion.md)
+
 - [Página de inicio](README.md) 
