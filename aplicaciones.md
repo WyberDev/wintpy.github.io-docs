@@ -15,7 +15,8 @@ El archivo json se generará automáticamente en la carpeta donde lo ejecutaste.
 
 Ahora la segunda manera, es escribiendo el .json, puedes usar tu editor de código favorito o crear el 'info.json' con `mkfle` y luego editandolo con `edit`
 El archivo tiene que verse de esta manera:
-```{
+```
+{
   "name": "Ejemplo",
   "version": "Ejemplo",
   "main_file": "Ejemplo"
