@@ -7,15 +7,21 @@ dos archivos: Un archivo Python (La aplicación en sí) y un info.json, con esto
 # Crear la aplicación
 Crear la aplicación es tan sencillo como hacer un programa más de Python, no se necesita ninguna herramienta, lo que facilita mucho el proceso.
 # Crear el info.json
-Hay 2 maneras para crear el 'info.json', la primera es desde WintPy, debes escribir 'devmode' para activar el modo desarrollador, lo que te va a dar
-el acceso al comando 'autojson', que se ve de esta forma:
+Tienes dos métodos para crear el archivo de configuración
+
+# Método 1:
+Activa el modo desarrollador ejecutando el comando: `devmode`.
+Esto te otorgará acceso a la herramienta `autojson`.
+Así se ve el comando de autojson:
 
 ![autojson](/Assets/autojson.png)
 
-El archivo json se generará automáticamente en la carpeta donde lo ejecutaste.
+> **Nota**: El archivo .json se generará automáticamente en el directorio exacto donde hayas ejecutado el comando.
 
-Ahora la segunda manera, es escribiendo el .json, puedes usar tu editor de código favorito o crear el 'info.json' con `mkfle` y luego editandolo con `edit`
-El archivo tiene que verse de esta manera:
+# Método 2:
+Puedes utilizar tu editor de código preferido, o bien crear el archivo directamente desde la consola usando mkfle y posteriormente modificarlo con edit.
+El archivo debe respetar la siguiente estructura:
+
 ```
 {
   "name": "Ejemplo",
@@ -23,9 +29,13 @@ El archivo tiene que verse de esta manera:
   "main_file": "Ejemplo"
 }
 ```
-Despues de juntar los dos archivos en una carpeta, reinicia WintPy (Si es que ya lo estabas ejecutando), ahora solo ejecutas exec o run con el nombre de la aplicación
-y funciona!
+# Lanzar la aplicación
 
+Una vez que tengas ambos archivos reunidos dentro de su respectiva carpeta en packages:
+Reinicia WintPy (en caso de que lo estuvieras ejecutando).
+Lanza tu creación utilizando los comandos exec o run seguido del nombre de tu aplicación.
+
+¡Y listo! Tu aplicación estará corriendo.
 
 [Página anterior - Comandos](comandos.md)
 
