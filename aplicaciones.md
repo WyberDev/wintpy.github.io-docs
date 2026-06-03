@@ -11,7 +11,7 @@ Hay 2 maneras para crear el 'info.json', la primera es desde WintPy, debes escri
 el acceso al comando 'autojson', que se ve de esta forma:
 ![autojson](/Assets/autojson.png)
 
-El archivo json se generará automáticamente en la carpeta donde lo ejecutaste
+El archivo json se generará automáticamente en la carpeta donde lo ejecutaste.
 
 Ahora la segunda manera, es escribiendo el .json, puedes usar tu editor de código favorito o crear el 'info.json' con `mkfle` y luego editandolo con `edit`
 El archivo tiene que verse de esta manera:
