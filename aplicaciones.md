@@ -9,6 +9,7 @@ Crear la aplicación es tan sencillo como hacer un programa más de Python, no s
 # Crear el info.json
 Hay 2 maneras para crear el 'info.json', la primera es desde WintPy, debes escribir 'devmode' para activar el modo desarrollador, lo que te va a dar
 el acceso al comando 'autojson', que se ve de esta forma:
+
 ![autojson](/Assets/autojson.png)
 
 El archivo json se generará automáticamente en la carpeta donde lo ejecutaste.
