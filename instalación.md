@@ -8,5 +8,5 @@ Cuando está instalado en tu carpeta, posee un archivo llamado `ejecutar.sh` que
 # Al ejecutarlo
 Al ejecutar WintPy te hará escribir un nombre para hacerte un usuario, puedes omitirlo escribiendo 'Q', o incluso omitirlo cada inicio con 'S'
 
-- [Siguiente página](comandos.md)
+- [Siguiente página - Explicación de los comandos](comandos.md)
 - [Página de inicio](README.md) 
