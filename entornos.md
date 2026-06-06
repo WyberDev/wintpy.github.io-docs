@@ -1,5 +1,5 @@
 # Entorno de escritorio con Innovator
-WintPy posee un entorno de escritorio llamado WintPy, su instalación es demasiado simple y así es como se ve:
+WintPy posee un entorno de escritorio llamado Innovator, su instalación es demasiado simple y así es como se ve:
 
 ![Innovator](/Assets/innovator.png)
 
