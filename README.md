@@ -3,9 +3,10 @@ WintPy es un sistema operativo simulado hecho desde Python, es facil de aprender
 
 ## Requisitos del Sistema
 
-* **Python:** Versión 3.x o superior.
+* **Python:** Versión 3.0 o superior.
 * **Sistemas Operativos:** Compatible solo con Linux.
 
 - [1. Instalación de WintPy](instalacion.md)
 - [2. Explicación de los comandos](comandos.md)
 - [3. Crear aplicaciones](aplicaciones.md)
+- [4. Entorno de escritorio con Innovator](entornos.md)
