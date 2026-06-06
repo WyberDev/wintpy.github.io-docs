@@ -20,7 +20,7 @@ comando en la terminal:
 
 # Crear tu propio entorno
 Crear tu propio entorno para WintPy también es fácil, solo hay que programarlo cómo un programa de Python normal y siguiendo
-los pasos de la sección de [aplicaciones](aplicaciones.md).
+los pasos de la sección de [aplicaciones](aplicaciones.md#Método-1).
 
 [Página anterior - Aplicaciones](aplicaciones.md)
 
