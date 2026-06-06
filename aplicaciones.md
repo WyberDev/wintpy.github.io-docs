@@ -9,7 +9,7 @@ Crear la aplicación es tan sencillo como hacer un programa más de Python, no s
 # Crear el info.json
 Tienes dos métodos para crear el archivo de configuración
 
-# Método 1:
+## Método 1:
 Activa el modo desarrollador ejecutando el comando: `devmode`.
 Esto te otorgará acceso a la herramienta `autojson`.
 Así se ve el comando de autojson:
@@ -18,7 +18,7 @@ Así se ve el comando de autojson:
 
 > **Nota**: El archivo .json se generará automáticamente en el directorio exacto donde hayas ejecutado el comando.
 
-# Método 2:
+## Método 2:
 Puedes utilizar tu editor de código preferido, o bien crear el archivo directamente desde la consola usando mkfle y posteriormente modificarlo con edit.
 El archivo debe respetar la siguiente estructura:
 
