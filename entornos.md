@@ -5,6 +5,9 @@ WintPy posee un entorno de escritorio llamado Innovator, su instalación es dema
 
 > Innovator todavía esta en una fase muy temprana de desarrollo, por lo que es muy limitado o puede tener bugs.
 
+# Requerimientos
+Innovator solo requiere de tener instalada la librería Pygame
+
 # Instalación y uso
 Instalar Innovator es tan simple como instalar una app más, solo tienes que escribir `pkg -list` y seleccionar innovator
 en esa lista, despues solo para ejecutarlo es escribir `exec innovator` y listo!
