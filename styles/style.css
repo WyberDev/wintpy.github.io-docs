@@ -1,19 +1,16 @@
 @font-face {
     font-family: 'Jetbrains';
     src: url(fonts/Jetbrains-normal.ttf);
-    color: rgb(252, 252, 252);
-    
 }
 
 @font-face {
-    font-family: Inter-bold;
+    font-family: 'Inter-bold';
     src: url(fonts/Inter-bold.ttf);
 }
 
 @font-face {
     font-family: 'Jetbrains-Mono';
     src: url(fonts/JetBrainsMono-Bold.ttf);
-    color: rgb(255, 255, 255);
 }
 
 @font-face {
@@ -26,7 +23,7 @@ h1 {
 }
 
 strong {
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
     font-size: 220%;
     color: rgb(255, 255, 121);
 }
@@ -34,7 +31,7 @@ strong {
 body {
     /*background: linear-gradient(to top, rgb(34, 34, 34), rgb(39, 39, 39));*/
     background-color: rgb(34, 34, 34);
-    font: Inter-normal;
+    font: 'Inter-normal';
     color: white;
     width: 1350px;
     height: 100vh;
@@ -53,7 +50,7 @@ img {
 
 blockquote {
     position: relative;
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
     background: #3d3d3d30;
     font-size: 130%;
     color: rgb(196, 196, 196);
@@ -78,22 +75,22 @@ code {
     border: 10px;
     border-color: azure;
     border-radius: 12px;
-    font-family: Jetbrains;
+    font-family: 'Jetbrains';
     font-size: 85%;
 }
 
 bold {
-    font-family: Inter-bold;
+    font-family: 'Inter-bold';
 }
 
 .category {
     font-size: 200%;
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
     color: rgb(158, 156, 156);
 }
 
 li {
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
     font-size: 160%;
 }
 
@@ -113,7 +110,7 @@ button {
 pre {
     background-color: rgb(27, 27, 27);
     border-radius: 13px;
-    font-family: Jetbrains;
+    font-family: 'Jetbrains';
     min-height: 10px;
     font-size: 200%;
     padding: 0px;
@@ -121,11 +118,11 @@ pre {
 }
 
 head {
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
 }
 
 h2 {
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
     font-size: 155%;
 }
 
@@ -140,12 +137,12 @@ a:visited {
 }
 
 h1 {
-    font-family: Inter-bold;
+    font-family: 'Inter-bold';
     font-size: 290%;
 }
 
 p {
-    font-family: Inter-normal;
+    font-family: 'Inter-normal';
     font-size: 180%;
 }
 
