@@ -31,7 +31,7 @@ strong {
 body {
     /*background: linear-gradient(to top, rgb(34, 34, 34), rgb(39, 39, 39));*/
     background-color: rgb(34, 34, 34);
-    font: 'Inter-normal';
+    font-family: 'Inter-normal';
     color: white;
     width: 1350px;
     height: 100vh;
