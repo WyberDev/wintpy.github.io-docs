@@ -1,1 +1,159 @@
+@font-face {
+    font-family: 'Jetbrains';
+    src: url(fonts/Jetbrains-normal.ttf);
+    color: rgb(252, 252, 252);
+    
+}
 
+@font-face {
+    font-family: Inter-bold;
+    src: url(fonts/Inter-bold.ttf);
+}
+
+@font-face {
+    font-family: 'Jetbrains-Mono';
+    src: url(fonts/JetBrainsMono-Bold.ttf);
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'Inter-normal';
+    src: url(fonts/inter-normal.ttf);
+}
+
+h1 {
+    color: rgb(255, 255, 121);
+}
+
+strong {
+    font-family: Inter-normal;
+    font-size: 220%;
+    color: rgb(255, 255, 121);
+}
+
+body {
+    /*background: linear-gradient(to top, rgb(34, 34, 34), rgb(39, 39, 39));*/
+    background-color: rgb(34, 34, 34);
+    font: Inter-normal;
+    color: white;
+    width: 1350px;
+    height: 100vh;
+    padding: 80px;
+}
+
+img {
+    width: 65%;
+}
+
+.decoration {
+    color: gray;
+    font-size: 100%;
+    padding: 2px;
+}
+
+blockquote {
+    position: relative;
+    font-family: Inter-normal;
+    background: #3d3d3d30;
+    font-size: 130%;
+    color: rgb(196, 196, 196);
+    border-radius: 11px;
+    padding: 16px;
+    margin: 1rem 0;
+}
+
+blockquote::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: #fffb00;
+}
+code {
+    background-color: rgb(27, 27, 27);
+    background-size: 150%;
+    padding: 3px;
+    border: 10px;
+    border-color: azure;
+    border-radius: 12px;
+    font-family: Jetbrains;
+    font-size: 85%;
+}
+
+bold {
+    font-family: Inter-bold;
+}
+
+.category {
+    font-size: 200%;
+    font-family: Inter-normal;
+    color: rgb(158, 156, 156);
+}
+
+li {
+    font-family: Inter-normal;
+    font-size: 160%;
+}
+
+button {
+    background-color: rgb(255, 255 ,121);
+    font-size: 80%;
+    width: 95px;
+    padding: 6px;
+    margin: 2px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+pre {
+    background-color: rgb(27, 27, 27);
+    border-radius: 13px;
+    font-family: Jetbrains;
+    min-height: 10px;
+    font-size: 200%;
+    padding: 0px;
+    margin: 0px;
+}
+
+head {
+    font-family: Inter-normal;
+}
+
+h2 {
+    font-family: Inter-normal;
+    font-size: 155%;
+}
+
+a:link {
+    color: #fffd85;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #acaa5b;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Inter-bold;
+    font-size: 290%;
+}
+
+p {
+    font-family: Inter-normal;
+    font-size: 180%;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+::selection {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+}
