@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>
+<head>
+
+<h1>Crear aplicaciones</h1>
+<p>Una función interesante que tiene WintPy es que es capaz de desarrollar y ejecutar aplicaciones<br>
+todo dentro del mismo WintPy.<br>
+Ahora vamos a aprender a crear aplicaciones.
+</p>
+<h1>Comienzo</h1>
+<p>Para que WintPy automáticamente instale una aplicación, debe ser una carpeta ubicada desde
+la carpeta 'packages' Para hacer una aplicación se requieren dos archivos:<br>
+Un archivo .py (la aplicación en sí) y un archivo info.json, con este WintPy reconocera la aplicación.
+</p>
+<h1>Crear la aplicación</h1>
+<p>Crear la aplicación es tan sencillo como hacer un programa más de Python, no se necesita
+ninguna herramienta, lo que facilita mucho el proceso.</p>
+<h1>Crear el info.json</h1>
+<p>Tienes dos métodos para crear el archivo de configuración:</p>
+<br>
+<strong>Método 1:</strong>
+<p>Activa el modo desarrollador utilizando el comando <code>devmode</code>.</p>
+<p>Esto te otorgará acceso a la herramienta <code>autojson</code>, ejecutála y sigue los pasos
+que te dice.</p>
+
+<blockquote>El info.json se creará en el mismo directorio donde ejecutaste <code>info.json</code></blockquote>
+
+<br>
+
+<strong>Método 2:</strong>
+<p>Puedes utilizar tu editor de código preferido, o bien crear el archivo directamente
+desde la consola usando mkfle y posteriormente modificarlo con edit.
+El archivo debe respetar la siguiente estructura:</p>
+
+<pre><code><button>Copiar</button>
+  {
+    "name": "Ejemplo",
+    "version": "Ejemplo",
+    "main_file": "Ejemplo"
+  }
+
+</code></pre>
+
+<h1>Lanzar la aplicación</h1>
+
+<p>Una vez que tengas ambos archivos reunidos dentro de la carpeta 'packages'
+  reinicia WintPy (en caso de que lo estuvieras ejecutando)<br>
+  lanza tu creación utilizando los comandos exec o run seguido del nombre de tu aplicación
+  <br>
+  ¡Y listo! Tu aplicación estara ejecutandose en WintPy.
+</p>
+
+<p><a href="index.html">Página de inicio.</a></p>
+<!--<p><a href="entornos.html">4. Entornos de escritorio con Innovator</a></p>-->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</head>
+<link rel="stylesheet" href="styles/style.css">
+</body>
+</html>
