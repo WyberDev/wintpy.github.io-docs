@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Jetbrains';
+    src: url('./fonts/Jetbrains-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: url('./fonts/Inter-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Jetbrains-Mono';
+    src: url('./fonts/JetBrainsMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-normal';
+    src: url('./fonts/inter-normal.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    opacity: 0;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(34, 34, 34), rgb(27, 27, 27));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(255, 255, 121);
+    font-family: 'Jetbrains';
+    font-size: 290%;
+    text-decoration: underline;
+}
+
+#pagecenter {
+    width: 600px¿;
+    height: 250px;
+    position: fixed;
+    justify-items: center;
+    left: 1%;
+    top: 1%;
+    background-color: rgb(54, 55, 59);
+}
+
+strong {
+    font-family: 'Inter-normal';
+    font-size: 220%;
+    color: rgb(255, 255, 121);
+}
+
+p, li {
+    font-family: 'Inter-normal';
+}
+
+blockquote {
+    position: relative;
+    background: #3d3d3d30;
+    font-size: 130%;
+    color: rgb(196, 196, 196);
+    border-radius: 11px;
+    padding: 16px;
+    margin: 1rem auto;
+    max-width: 700px;
+}
+
+code {
+    background-color: rgb(27, 27, 27);
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 150%;
+    border-radius: 12px;
+    font-family: 'Jetbrains';
+}
+
+pre {
+    background-color: rgb(27, 27, 27);
+    border-radius: 13px;
+    font-family: 'Jetbrains';
+    font-size: 200%;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+button {
+    background-color: rgb(255, 255 ,121);
+    font-family: 'Jetbrains';
+    font-size: 200%;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+
+span {
+    font-family: 'Jetbrains-Mono';
+    font-size: 120%;
+    color: white;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#copiado {
+    opacity: 0;
+    margin-left: 10px;
+    transition: opacity 0.5s;
+}
+
+#copiado.visible {
+    opacity: 1;
+    animation: fadeOut 1s forwards;
+}
+
+#copy {
+    filter: brightness(0) invert(1);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2 {
+    font-family: 'Jetbrains-Mono';
+    color: rgb(136, 136, 136);
+}
+
+h2, h1 {
+    margin: 5px;
+}
+
+h3 {
+    font-family: 'Jetbrains';
+    color: rgb(255, 255, 111);
+    padding-left: 10px;
+    padding-top: 0px;
+    margin: 13px;
+}
+
+h4 {
+    font-family: 'Jetbrains';
+    color: rgb(209, 209, 209);
+    font-size: 120%;
+}
